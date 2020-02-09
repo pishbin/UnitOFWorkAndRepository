@@ -1,0 +1,263 @@
+2020-02-09 11:35:46.8888 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 11:35:48.1106 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 11:35:48.2521 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:48.2996 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:51.9556 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:51.9556 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:51.9619 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.8562ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:51.9800 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:52.1490 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 3846.4167ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:52.1490 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:35:52.1490 | INFO | Request finished in 4045.8247ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 11:36:03.9351 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/ | action: 
+2020-02-09 11:36:03.9351 | INFO | Request finished in 3.8696ms 301  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/ | action: 
+2020-02-09 11:36:03.9555 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/index.html   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:36:04.0135 | INFO | Request finished in 58.0585ms 200 text/html |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:36:04.0422 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui-bundle.js   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-bundle.js | action: 
+2020-02-09 11:36:04.0422 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-standalone-preset.js | action: 
+2020-02-09 11:36:04.0422 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui.css   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:36:04.1423 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:36:04.0945 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui-standalone-preset.js | action: 
+2020-02-09 11:36:04.1098 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui-bundle.js | action: 
+2020-02-09 11:36:04.1978 | INFO | Request finished in 147.5111ms 200 text/css |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:36:04.1978 | INFO | Request finished in 156.4462ms 200 application/javascript |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-bundle.js | action: 
+2020-02-09 11:36:04.1978 | INFO | Request finished in 155.3566ms 200 application/javascript |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-standalone-preset.js | action: 
+2020-02-09 11:36:04.8161 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/favicon-16x16.png   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:36:04.8161 | INFO | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:36:04.8161 | INFO | Request finished in 1.2009ms 200 image/png |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:36:04.8717 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/v1/swagger.json   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:36:04.9411 | ERROR | An unhandled exception has occurred while executing the request. | System.NotSupportedException: Ambiguous HTTP method for action - TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger). Actions require an explicit HttpMethod binding for Swagger 2.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:36:05.2034 | INFO | Request finished in 331.7258ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:37:27.5914 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/index.html   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:37:27.6023 | INFO | Request finished in 10.8768ms 200 text/html |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:37:27.6279 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-standalone-preset.js | action: 
+2020-02-09 11:37:27.6279 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui-bundle.js   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-bundle.js | action: 
+2020-02-09 11:37:27.6279 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui.css   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:37:27.6476 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:37:27.6476 | INFO | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui-standalone-preset.js | action: 
+2020-02-09 11:37:27.6476 | INFO | Request finished in 29.895ms 200 text/css |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:37:27.6476 | INFO | Request finished in 30.0365ms 200 application/javascript |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-standalone-preset.js | action: 
+2020-02-09 11:37:27.6611 | INFO | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui-bundle.js | action: 
+2020-02-09 11:37:27.6611 | INFO | Request finished in 34.042ms 200 application/javascript |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui-bundle.js | action: 
+2020-02-09 11:37:28.3326 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/favicon-16x16.png   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:37:28.3334 | INFO | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:37:28.3334 | INFO | Request finished in 1.1776ms 200 image/png |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:37:28.3883 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/v1/swagger.json   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:37:28.3883 | ERROR | An unhandled exception has occurred while executing the request. | System.NotSupportedException: Ambiguous HTTP method for action - TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger). Actions require an explicit HttpMethod binding for Swagger 2.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:37:28.3983 | INFO | Request finished in 10.0562ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:38:30.7869 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 11:38:31.2982 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 11:38:31.4137 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:31.4268 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.2838 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.2855 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.2855 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.7655ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.2855 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.3637 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 2933.3808ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.3660 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:34.3660 | INFO | Request finished in 3070.821ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 11:38:44.5175 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/index.html   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:38:44.5602 | INFO | Request finished in 42.7365ms 200 text/html |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:38:44.8400 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/v1/swagger.json   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:38:44.8622 | ERROR | An unhandled exception has occurred while executing the request. | System.NotSupportedException: Ambiguous HTTP method for action - TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger). Actions require an explicit HttpMethod binding for Swagger 2.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItem(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreatePathItems(IEnumerable`1 apiDescriptions, ISchemaRegistry schemaRegistry)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath, String[] schemes)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:38:44.9525 | INFO | Request finished in 112.5438ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:39:40.4089 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 11:39:40.8465 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 11:39:40.9473 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:40.9723 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.0877 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.0877 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.0877 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2578ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.1003 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.1682 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 192.9763ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.1682 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:41.1682 | INFO | Request finished in 326.5114ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 11:39:50.0641 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/index.html   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:39:50.1108 | INFO | Request finished in 46.6575ms 200 text/html |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:39:50.1470 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/swagger-ui.css   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:39:50.2060 | INFO | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:39:50.2060 | INFO | Request finished in 59.4018ms 0 text/css |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/swagger-ui.css | action: 
+2020-02-09 11:39:50.3408 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/favicon-16x16.png   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:39:50.3408 | INFO | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:39:50.3408 | INFO | Request finished in 1.2768ms 0 image/png |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:39:50.4040 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/v1/swagger.json   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:39:50.5573 | INFO | Request finished in 153.3149ms 200 application/json;charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:42:47.7533 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 11:42:48.2185 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 11:42:48.3249 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.3371 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.4474 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.4474 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.4474 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.2796ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.4599 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.5196 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 179.6098ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.5215 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:42:48.5215 | INFO | Request finished in 306.8488ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:14.1704 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swapper   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper | action: 
+2020-02-09 11:50:14.1907 | INFO | Request finished in 20.3211ms 404  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper | action: 
+2020-02-09 11:50:14.2230 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/favicon.ico   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/favicon.ico | action: 
+2020-02-09 11:50:14.2236 | INFO | Request finished in 0.5617ms 404  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/favicon.ico | action: 
+2020-02-09 11:50:20.3448 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swapper/index   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper/index | action: 
+2020-02-09 11:50:20.3448 | INFO | Request finished in 0.5135ms 404  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper/index | action: 
+2020-02-09 11:50:39.2868 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 11:50:39.7241 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 11:50:39.8300 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:39.8409 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:39.9151 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:39.9151 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:39.9151 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.6003ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:39.9270 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:40.0553 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 210.7754ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:40.0553 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:40.0553 | INFO | Request finished in 340.2978ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 11:50:56.1792 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swapper   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper | action: 
+2020-02-09 11:50:56.1792 | INFO | Request finished in 2.5358ms 404  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper | action: 
+2020-02-09 11:50:56.2178 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/favicon.ico   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/favicon.ico | action: 
+2020-02-09 11:50:56.2178 | INFO | Request finished in 0.4357ms 0  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/favicon.ico | action: 
+2020-02-09 11:51:06.2765 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swapper/index.html   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper/index.html | action: 
+2020-02-09 11:51:06.2765 | INFO | Request finished in 0.7221ms 404  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper/index.html | action: 
+2020-02-09 11:51:14.6575 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swapper/index.cshtml   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper/index.cshtml | action: 
+2020-02-09 11:51:14.6575 | INFO | Request finished in 0.713ms 404  |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swapper/index.cshtml | action: 
+2020-02-09 11:51:31.6755 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/index.html   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:51:31.7366 | INFO | Request finished in 61.0642ms 200 text/html |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/index.html | action: 
+2020-02-09 11:51:31.9738 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/favicon-16x16.png   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:51:31.9942 | INFO | Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' |  | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:51:31.9942 | INFO | Request finished in 20.9714ms 0 image/png |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/favicon-16x16.png | action: 
+2020-02-09 11:51:32.0624 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/swagger/v1/swagger.json   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:51:32.1873 | INFO | Request finished in 125.0068ms 200 application/json;charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/swagger/v1/swagger.json | action: 
+2020-02-09 11:56:07.5652 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 11:56:08.1429 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 11:56:08.2754 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.2947 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.4162 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.4162 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.4162 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.9207ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.4321 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.5570 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 245.9102ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.5570 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 11:56:08.5713 | INFO | Request finished in 428.7402ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 11:57:28.8725 | INFO | Request starting HTTP/1.1 POST https://localhost:44394/api/UploadFile text/plain 7007 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: 
+2020-02-09 11:57:28.9180 | INFO | Executing endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:57:28.9980 | INFO | Route matched with {action = "UploadImage", controller = "UploadFile"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] UploadImage(System.String) on controller TamrinLogger.Controllers.UploadFileController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:57:28.9980 | INFO | Executed action TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger) in 2.0969ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:57:28.9980 | INFO | Executed endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:57:28.9980 | ERROR | An unhandled exception has occurred while executing the request. | System.InvalidOperationException: Unable to resolve service for type 'TamrinLogger.Models.UnitOfWork.UnitOfWork' while attempting to activate 'TamrinLogger.Controllers.UploadFileController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:57:29.1886 | INFO | Request finished in 323.7104ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:58:30.3398 | INFO | Request starting HTTP/1.1 POST https://localhost:44394/api/UploadFile text/plain 7007 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: 
+2020-02-09 11:58:30.3545 | INFO | Executing endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:58:30.3545 | INFO | Route matched with {action = "UploadImage", controller = "UploadFile"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] UploadImage(System.String) on controller TamrinLogger.Controllers.UploadFileController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:58:30.3545 | INFO | Executed action TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger) in 6.8716ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:58:30.3545 | INFO | Executed endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:58:30.3827 | ERROR | An unhandled exception has occurred while executing the request. | System.InvalidOperationException: Unable to resolve service for type 'TamrinLogger.Models.UnitOfWork.UnitOfWork' while attempting to activate 'TamrinLogger.Controllers.UploadFileController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 11:58:30.4273 | INFO | Request finished in 87.5202ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:00:33.8933 | INFO | Request starting HTTP/1.1 POST https://localhost:44394/api/UploadFile application/json 7007 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: 
+2020-02-09 12:00:33.8965 | INFO | Executing endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:00:33.8965 | INFO | Route matched with {action = "UploadImage", controller = "UploadFile"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] UploadImage(System.String) on controller TamrinLogger.Controllers.UploadFileController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:00:33.8965 | INFO | Executed action TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger) in 12.0537ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:00:33.8965 | INFO | Executed endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:00:33.8965 | ERROR | An unhandled exception has occurred while executing the request. | System.InvalidOperationException: Unable to resolve service for type 'TamrinLogger.Models.UnitOfWork.UnitOfWork' while attempting to activate 'TamrinLogger.Controllers.UploadFileController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:00:33.9337 | INFO | Request finished in 40.4526ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:04:02.7661 | INFO | User profile is available. Using 'C:\Users\nazyar\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. |  | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | url:  | action: 
+2020-02-09 12:04:03.3544 | INFO | Request starting HTTP/2.0 GET https://localhost:44394/api/values   |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: 
+2020-02-09 12:04:03.4504 | INFO | Executing endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.4704 | INFO | Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller TamrinLogger.Controllers.ValuesController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.5839 | INFO | Executing action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) - Validation state: Valid |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.5839 | INFO |  call get methode by npb |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.5839 | INFO | Executed action method TamrinLogger.Controllers.ValuesController.Get (TamrinLogger), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3345ms. |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.5839 | INFO | Executing ObjectResult, writing value of type 'System.String[]'. |  | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.6629 | INFO | Executed action TamrinLogger.Controllers.ValuesController.Get (TamrinLogger) in 189.6021ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.6629 | INFO | Executed endpoint 'TamrinLogger.Controllers.ValuesController.Get (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/values | action: Get
+2020-02-09 12:04:03.6629 | INFO | Request finished in 313.9038ms 200 application/json; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/values | action: Get
+2020-02-09 12:06:39.9327 | INFO | Request starting HTTP/1.1 POST https://localhost:44394/api/UploadFile application/json 78852 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: 
+2020-02-09 12:06:39.9327 | INFO | Executing endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:06:39.9883 | INFO | Route matched with {action = "UploadImage", controller = "UploadFile"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] UploadImage(System.String) on controller TamrinLogger.Controllers.UploadFileController (TamrinLogger). |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:06:39.9899 | INFO | Executed action TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger) in 1.1883ms |  | Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:06:39.9899 | INFO | Executed endpoint 'TamrinLogger.Controllers.UploadFileController.UploadImage (TamrinLogger)' |  | Microsoft.AspNetCore.Routing.EndpointMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:06:39.9899 | ERROR | An unhandled exception has occurred while executing the request. | System.InvalidOperationException: Unable to resolve service for type 'TamrinLogger.Models.UnitOfWork.UnitOfWork' while attempting to activate 'TamrinLogger.Controllers.UploadFileController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context) | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | url: https://localhost/api/UploadFile | action: UploadImage
+2020-02-09 12:06:40.1455 | INFO | Request finished in 213.1916ms 500 text/html; charset=utf-8 |  | Microsoft.AspNetCore.Hosting.Internal.WebHost | url: https://localhost/api/UploadFile | action: UploadImage

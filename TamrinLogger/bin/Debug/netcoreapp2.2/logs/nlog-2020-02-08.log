@@ -1,0 +1,2 @@
+2020-02-08 16:44:08.7732 | ERROR | call get with id by id___test log error |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values/1 | action: Get
+2020-02-08 16:45:14.3431 | ERROR | call get with id by id___test log error |  | TamrinLogger.Controllers.ValuesController | url: https://localhost/api/values/15 | action: Get
