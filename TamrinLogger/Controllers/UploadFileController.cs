@@ -16,10 +16,10 @@ namespace TamrinLogger.Controllers
     public class UploadFileController : ControllerBase
     {
         private readonly UnitOfWork _UW;
-        private readonly ILogger _Logger;
+        private readonly ILogger<UploadFileController> _Logger;
         private readonly IHostingEnvironment _ENV;
 
-        public UploadFileController(UnitOfWork UW, ILogger Logger, IHostingEnvironment ENV)
+        public UploadFileController(UnitOfWork UW, ILogger<UploadFileController> Logger, IHostingEnvironment ENV)
         {
             _UW = UW;
             _Logger = Logger;
