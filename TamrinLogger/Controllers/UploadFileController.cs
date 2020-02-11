@@ -15,15 +15,16 @@ namespace TamrinLogger.Controllers
     [ApiController]
     public class UploadFileController : ControllerBase
     {
-        //private readonly UnitOfWork _UW;
-        //prvate readonly ILogger _Logger;
-        private readonly IHostingEnvironment _env;
 
-        public UploadFileController(IHostingEnvironment env)
+        private readonly UnitOfWork _UW;
+        private readonly ILogger<UploadFileController> _Logger;
+        private readonly IHostingEnvironment _ENV;
+
+        public UploadFileController(UnitOfWork UW, ILogger<UploadFileController> Logger, IHostingEnvironment ENV)
         {
-            //  _UW = UW;
-            //            _Logger = Logger;
-            _env = env;
+              _UW = UW;
+            _Logger = Logger;
+            _ENV = ENV;
         }
 
         [HttpPost]
@@ -31,7 +32,7 @@ namespace TamrinLogger.Controllers
         {
             byte[] bytes = Convert.FromBase64String(ImageBase64);
             //var PathFile = Path.Combine($"/Files/{Guid.NewGuid()}.jpg");
-            var pathFile = Path.Combine($"{_env.WebRootPath}/Files/{Guid.NewGuid()}.jpg");
+            var pathFile = Path.Combine($"{_ENV.WebRootPath}/Files/{Guid.NewGuid()}.jpg");
             await System.IO.File.WriteAllBytesAsync(pathFile, bytes);
             
 

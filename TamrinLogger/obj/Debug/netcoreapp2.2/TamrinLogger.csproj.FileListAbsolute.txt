@@ -25,3 +25,4 @@ D:\tamrinatAspCore\TamrinLogger\TamrinLogger\obj\Debug\netcoreapp2.2\Razor\Views
 D:\tamrinatAspCore\TamrinLogger\TamrinLogger\obj\Debug\netcoreapp2.2\TamrinLogger.RazorTargetAssemblyInfo.cs
 D:\tamrinatAspCore\TamrinLogger\TamrinLogger\obj\Debug\netcoreapp2.2\TamrinLogger.Views.pdb
 D:\tamrinatAspCore\TamrinLogger\TamrinLogger\obj\Debug\netcoreapp2.2\TamrinLogger.csproj.CopyComplete
+D:\tamrinatAspCore\TamrinLogger\TamrinLogger\obj\Debug\netcoreapp2.2\TamrinLogger.csprojAssemblyReference.cache
