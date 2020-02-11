@@ -298,3 +298,88 @@
    at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
    at System.Net.Mail.SmtpClient.Send(MailMessage message)
    at NLog.Targets.MailTarget.ProcessSingleMailMessage(IList`1 events)
+2020-02-09 14:31:05.4355 Info Message Template Auto Format enabled
+2020-02-09 14:31:05.4713 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-09 14:31:05.5794 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-09 14:31:05.5794 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-09 14:31:05.5833 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-09 14:31:05.5833 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-09 14:31:05.6473 Info Found 82 configuration items
+2020-02-09 14:33:10.3355 Info Message Template Auto Format enabled
+2020-02-09 14:33:10.3592 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-09 14:33:10.5230 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-09 14:33:10.5230 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-09 14:33:10.5230 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-09 14:33:10.5503 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-09 14:33:10.6280 Info Found 82 configuration items
+2020-02-09 14:34:17.7046 Error MailTarget(Name=MailLogger_wrapped): Error sending mail. Exception: System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NLog.Targets.MailTarget.ProcessSingleMailMessage(IList`1 events)
+2020-02-09 14:35:09.9278 Info Message Template Auto Format enabled
+2020-02-09 14:35:09.9869 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-09 14:35:10.1807 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-09 14:35:10.1807 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-09 14:35:10.1807 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-09 14:35:10.2184 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-09 14:35:10.3181 Info Found 82 configuration items
+2020-02-09 14:37:15.2670 Info Message Template Auto Format enabled
+2020-02-09 14:37:15.2967 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-09 14:37:15.4581 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-09 14:37:15.4581 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-09 14:37:15.4581 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-09 14:37:15.4820 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-09 14:37:15.5403 Info Found 82 configuration items
+2020-02-09 14:43:06.2034 Error MailTarget(Name=MailLogger_wrapped): Error sending mail. Exception: System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NLog.Targets.MailTarget.ProcessSingleMailMessage(IList`1 events)
+2020-02-11 13:18:50.6779 Info Message Template Auto Format enabled
+2020-02-11 13:18:50.6985 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-11 13:18:50.8102 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-11 13:18:50.8102 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-11 13:18:50.8102 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-11 13:18:50.8275 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-11 13:18:50.8889 Info Found 82 configuration items
+2020-02-11 13:35:46.4672 Info Message Template Auto Format enabled
+2020-02-11 13:35:46.4777 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-11 13:35:46.5523 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-11 13:35:46.5523 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-11 13:35:46.5523 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-11 13:35:46.5686 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-11 13:35:46.6060 Info Found 82 configuration items
+2020-02-11 13:35:46.6253 Info Configuration initialized.
+2020-02-11 13:35:46.6546 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.7.10445. Product version: 4.6.7.
+2020-02-11 13:35:47.4093 Info AppDomain Shutting down. Logger closing...
+2020-02-11 13:35:47.4315 Info Logger has been shut down.
+2020-02-11 18:57:13.3292 Info Message Template Auto Format enabled
+2020-02-11 18:57:13.3451 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-11 18:57:13.4560 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-11 18:57:13.4581 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-11 18:57:13.4581 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-11 18:57:13.4742 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-11 18:57:13.5243 Info Found 82 configuration items
+2020-02-11 18:57:32.9664 Error MailTarget(Name=MailLogger_wrapped): Error sending mail. Exception: System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at NLog.Targets.MailTarget.ProcessSingleMailMessage(IList`1 events)
+2020-02-11 18:59:33.9935 Info Message Template Auto Format enabled
+2020-02-11 18:59:34.0118 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-11 18:59:34.1453 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-11 18:59:34.1453 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-11 18:59:34.1453 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-11 18:59:34.1713 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-11 18:59:34.2819 Info Found 82 configuration items
+2020-02-11 19:04:07.3246 Info Message Template Auto Format enabled
+2020-02-11 19:04:07.3412 Info Loading assembly: NLog.Web.AspNetCore
+2020-02-11 19:04:07.4586 Info Adding target AsyncTargetWrapper(Name=LogFile)
+2020-02-11 19:04:07.4586 Info Adding target AsyncTargetWrapper(Name=LogFile2)
+2020-02-11 19:04:07.4586 Info Adding target AsyncTargetWrapper(Name=MailLogger)
+2020-02-11 19:04:07.4766 Info Adding target AsyncTargetWrapper(Name=ColorConsole)
+2020-02-11 19:04:07.5220 Info Found 82 configuration items

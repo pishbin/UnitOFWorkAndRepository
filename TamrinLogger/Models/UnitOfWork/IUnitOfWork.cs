@@ -11,6 +11,7 @@ namespace TamrinLogger.Models.UnitOfWork
         //IAuthorRepository AuthorRepository { get; }
         IProductRepository ProductRepository { get; }
         ICategoryRepository CategoryRepository { get; }
+        IBaseRepository<TEntity> BaseRepository<TEntity>() where TEntity : class;
         Task Commit();
         void Rollback();
         //void BeginTransaction();
